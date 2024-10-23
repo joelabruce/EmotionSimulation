@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmotionSimulation", "EmotionSimulation.csproj", "{1480EF7E-F7E1-4CB5-BD01-800EB49A4A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitLibrary", "..\UnitLibrary\UnitLibrary.csproj", "{A35BBBC0-0D60-4248-BCD7-1069116504D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitLibrary", "..\TestUnitLibrary\TestUnitLibrary.csproj", "{89EED795-D12A-4075-87FA-55229CD05E8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralMath", "..\NeuralMath\NeuralMath.csproj", "{76573A9F-386A-4341-9873-674BEDE539DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1480EF7E-F7E1-4CB5-BD01-800EB49A4A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1480EF7E-F7E1-4CB5-BD01-800EB49A4A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1480EF7E-F7E1-4CB5-BD01-800EB49A4A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1480EF7E-F7E1-4CB5-BD01-800EB49A4A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35BBBC0-0D60-4248-BCD7-1069116504D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35BBBC0-0D60-4248-BCD7-1069116504D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35BBBC0-0D60-4248-BCD7-1069116504D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35BBBC0-0D60-4248-BCD7-1069116504D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89EED795-D12A-4075-87FA-55229CD05E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89EED795-D12A-4075-87FA-55229CD05E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89EED795-D12A-4075-87FA-55229CD05E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89EED795-D12A-4075-87FA-55229CD05E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76573A9F-386A-4341-9873-674BEDE539DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76573A9F-386A-4341-9873-674BEDE539DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76573A9F-386A-4341-9873-674BEDE539DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76573A9F-386A-4341-9873-674BEDE539DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {278B49B7-E34A-4873-8525-C214857284CE}
+	EndGlobalSection
+EndGlobal
